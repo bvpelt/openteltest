@@ -16,6 +16,9 @@
             "outputPath": "dist/openteltest",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "allowedCommonJsDependencies": [
+              "shimmer"
+            ],
             "polyfills": [
               "zone.js"
             ],
